@@ -21,9 +21,9 @@ flutter:
   uses-material-design: true
 
   assets:
-    - assets/logos/logo-mini-rounded.png
-    - assets/logos/logo-mini.png
-    - assets/logos/logo.png
+    - assets/logos/cartee-logos-no-bg/
+    - assets/logos/cartee-logos/
+    - assets/logos/brand-logos/
 
   fonts:
     - family: WorkSans

@@ -8,13 +8,13 @@ class CarteeElevatedButtonTheme {
   static final lightElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: tertiaryColor,
-      backgroundColor: primaryColor,
+      foregroundColor: CarteeColors.tertiaryColor,
+      backgroundColor: CarteeColors.primaryColor,
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: primaryColor),
+      side: const BorderSide(color: CarteeColors.primaryColor),
       padding: const EdgeInsets.symmetric(vertical: 18),
-      textStyle: const TextStyle(fontSize: 16, color: tertiaryColor, fontWeight: FontWeight.w600),
+      textStyle: const TextStyle(fontSize: 16, color: CarteeColors.tertiaryColor, fontWeight: FontWeight.w600),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
     ),
   );
@@ -23,13 +23,13 @@ class CarteeElevatedButtonTheme {
   static final darkElevatedButtonTheme = ElevatedButtonThemeData(
     style: ElevatedButton.styleFrom(
       elevation: 0,
-      foregroundColor: tertiaryColor,
-      backgroundColor: primaryColor,
+      foregroundColor: CarteeColors.tertiaryColor,
+      backgroundColor: CarteeColors.primaryColor,
       disabledForegroundColor: Colors.grey,
       disabledBackgroundColor: Colors.grey,
-      side: const BorderSide(color: primaryColor),
+      side: const BorderSide(color: CarteeColors.primaryColor),
       padding: const EdgeInsets.symmetric(vertical: 18),
-      textStyle: const TextStyle(fontSize: 16, color: tertiaryColor, fontWeight: FontWeight.w600),
+      textStyle: const TextStyle(fontSize: 16, color: CarteeColors.tertiaryColor, fontWeight: FontWeight.w600),
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
     ),
   );

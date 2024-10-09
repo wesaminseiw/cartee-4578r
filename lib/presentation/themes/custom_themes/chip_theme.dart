@@ -6,17 +6,17 @@ class CarteeChipTheme {
 
   static ChipThemeData lightChipTheme = ChipThemeData(
     disabledColor: Colors.grey.withOpacity(0.4),
-    labelStyle: const TextStyle(color: secondaryColor),
-    selectedColor: primaryColor,
+    labelStyle: const TextStyle(color: CarteeColors.secondaryColor),
+    selectedColor: CarteeColors.primaryColor,
     padding: const EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
-    checkmarkColor: tertiaryColor,
+    checkmarkColor: CarteeColors.tertiaryColor,
   ); // ChipThemeData
 
   static ChipThemeData darkChipTheme = const ChipThemeData(
     disabledColor: Colors.grey,
-    labelStyle: TextStyle(color: tertiaryColor),
-    selectedColor: primaryColor,
+    labelStyle: TextStyle(color: CarteeColors.tertiaryColor),
+    selectedColor: CarteeColors.primaryColor,
     padding: EdgeInsets.symmetric(horizontal: 12.0, vertical: 12),
-    checkmarkColor: tertiaryColor,
+    checkmarkColor: CarteeColors.tertiaryColor,
   );
 }

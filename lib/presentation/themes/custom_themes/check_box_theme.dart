@@ -25,10 +25,10 @@ class CarteeCheckBoxTheme {
   static CheckboxThemeData darkCheckBoxTheme = CheckboxThemeData(
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
     checkColor: WidgetStateProperty.resolveWith(
-      (states) => states.contains(WidgetState.selected) ? tertiaryColor : secondaryColor,
+      (states) => states.contains(WidgetState.selected) ? CarteeColors.tertiaryColor : CarteeColors.secondaryColor,
     ),
     fillColor: WidgetStateProperty.resolveWith(
-      (states) => states.contains(WidgetState.selected) ? primaryColor : Colors.transparent,
+      (states) => states.contains(WidgetState.selected) ? CarteeColors.primaryColor : Colors.transparent,
     ),
   );
 }

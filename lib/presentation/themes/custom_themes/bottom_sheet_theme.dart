@@ -6,16 +6,16 @@ class CarteeBottomSheetTheme {
 
   static BottomSheetThemeData lightBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
-    backgroundColor: tertiaryColor,
-    modalBackgroundColor: tertiaryColor,
+    backgroundColor: CarteeColors.tertiaryColor,
+    modalBackgroundColor: CarteeColors.tertiaryColor,
     constraints: const BoxConstraints(minWidth: double.infinity),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   );
 
   static BottomSheetThemeData darkBottomSheetTheme = BottomSheetThemeData(
     showDragHandle: true,
-    backgroundColor: secondaryColor,
-    modalBackgroundColor: secondaryColor,
+    backgroundColor: CarteeColors.secondaryColor,
+    modalBackgroundColor: CarteeColors.secondaryColor,
     constraints: const BoxConstraints(minWidth: double.infinity),
     shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),
   );

@@ -7,10 +7,10 @@ class CarteeTextFieldTheme {
     errorMaxLines: 3,
     prefixIconColor: Colors.grey,
     suffixIconColor: Colors.grey,
-    labelStyle: const TextStyle().copyWith(fontSize: 14, color: secondaryColor),
-    hintStyle: const TextStyle().copyWith(fontSize: 14, color: secondaryColor),
+    labelStyle: const TextStyle().copyWith(fontSize: 14, color: CarteeColors.secondaryColor),
+    hintStyle: const TextStyle().copyWith(fontSize: 14, color: CarteeColors.secondaryColor),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
-    floatingLabelStyle: const TextStyle().copyWith(color: secondaryColor.withOpacity(0.8)),
+    floatingLabelStyle: const TextStyle().copyWith(color: CarteeColors.secondaryColor.withOpacity(0.8)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(width: 1, color: Colors.grey),
@@ -21,7 +21,7 @@ class CarteeTextFieldTheme {
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: BorderSide(width: 1, color: secondaryColor.withAlpha(31)),
+      borderSide: BorderSide(width: 1, color: CarteeColors.secondaryColor.withAlpha(31)),
     ),
     errorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
@@ -36,10 +36,10 @@ class CarteeTextFieldTheme {
     errorMaxLines: 2,
     prefixIconColor: Colors.grey,
     suffixIconColor: Colors.grey,
-    labelStyle: const TextStyle().copyWith(fontSize: 14, color: tertiaryColor),
-    hintStyle: const TextStyle().copyWith(fontSize: 14, color: tertiaryColor),
+    labelStyle: const TextStyle().copyWith(fontSize: 14, color: CarteeColors.tertiaryColor),
+    hintStyle: const TextStyle().copyWith(fontSize: 14, color: CarteeColors.tertiaryColor),
     errorStyle: const TextStyle().copyWith(fontStyle: FontStyle.normal),
-    floatingLabelStyle: const TextStyle().copyWith(color: tertiaryColor.withOpacity(0.8)),
+    floatingLabelStyle: const TextStyle().copyWith(color: CarteeColors.tertiaryColor.withOpacity(0.8)),
     border: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(width: 1, color: Colors.grey),
@@ -50,7 +50,7 @@ class CarteeTextFieldTheme {
     ),
     focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
-      borderSide: const BorderSide(width: 1, color: tertiaryColor),
+      borderSide: const BorderSide(width: 1, color: CarteeColors.tertiaryColor),
     ),
     errorBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
