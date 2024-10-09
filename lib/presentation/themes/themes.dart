@@ -1,11 +1,11 @@
-import 'package:cartee/presentation/styles/colors.dart';
-import 'package:cartee/presentation/themes/custom_themes/bottom_sheet_theme.dart';
-import 'package:cartee/presentation/themes/custom_themes/check_box_theme.dart';
-import 'package:cartee/presentation/themes/custom_themes/chip_theme.dart';
-import 'package:cartee/presentation/themes/custom_themes/elevated_button_theme.dart';
-import 'package:cartee/presentation/themes/custom_themes/outlined_button_theme.dart';
-import 'package:cartee/presentation/themes/custom_themes/text_theme.dart';
-import 'package:cartee/presentation/themes/custom_themes/textfield_theme.dart';
+import '../styles/colors.dart';
+import 'custom_themes/bottom_sheet_theme.dart';
+import 'custom_themes/check_box_theme.dart';
+import 'custom_themes/chip_theme.dart';
+import 'custom_themes/elevated_button_theme.dart';
+import 'custom_themes/outlined_button_theme.dart';
+import 'custom_themes/text_theme.dart';
+import 'custom_themes/textfield_theme.dart';
 import 'package:flutter/material.dart';
 
 class CarteeAppTheme {
