@@ -1,3 +1,4 @@
+import 'package:cartee/presentation/themes/themes.dart';
 import 'package:flutter/material.dart';
 import '../presentation/screens/home_screen.dart';
 
@@ -6,10 +7,13 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
       title: 'Cartee',
-      home: HomeScreen(),
+      themeMode: ThemeMode.system,
+      theme: CarteeAppTheme.lightTheme,
+      darkTheme: CarteeAppTheme.darkTheme,
+      home: const HomeScreen(),
     );
   }
 }
