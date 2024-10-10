@@ -1,0 +1,13 @@
+# flutter_native_splash: # TODO: FIX THE SPLASH CLIPPING IMAGE ISUUE
+#   color: "#FFFFFF"
+#   color_dark: "#272727"
+#   image: assets/logos/cartee-logos/logo-dark.png
+#   image_dark: assets/logos/cartee-logos/logo-light.png
+
+#   android_12:
+#     color: "#FFFFFF"
+#     color_dark: "#272727"
+#     image: assets/logos/cartee-logos/logo-light.png
+#     image_dark: assets/logos/cartee-logos/logo-dark.png
+
+#   web: false

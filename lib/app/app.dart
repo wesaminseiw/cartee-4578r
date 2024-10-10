@@ -1,6 +1,6 @@
+import 'package:cartee/presentation/screens/splash_screen.dart';
 import 'package:cartee/presentation/themes/themes.dart';
 import 'package:flutter/material.dart';
-import '../presentation/screens/home_screen.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.system,
       theme: CarteeAppTheme.lightTheme,
       darkTheme: CarteeAppTheme.darkTheme,
-      home: const HomeScreen(),
+      home: const SplashScreen(),
     );
   }
 }

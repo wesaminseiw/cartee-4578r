@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 class CarteeColors {
   //* App Basic Colors
   static const Color primaryColor = Color(0xFF214B9A);
-  static const Color secondaryColor = Color(0xFF000000);
+  static const Color secondaryColor = Color(0xFF272727);
   static const Color tertiaryColor = Color(0xFFFFFFFF);
   static const Color accent = Color(0xFFb0c7ff);
 
