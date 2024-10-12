@@ -1,4 +1,10 @@
 import 'package:cartee/app/utils/constants/sizes.dart';
+import 'package:cartee/app/utils/helper/helper_functions.dart';
+import 'package:cartee/presentation/styles/spacing_styles.dart';
+import 'package:cartee/presentation/widgets/login_screen_widgets/login_screen_form.dart';
+import 'package:cartee/presentation/widgets/login_screen_widgets/login_screen_form_divider.dart';
+import 'package:cartee/presentation/widgets/login_screen_widgets/login_screen_header.dart';
+import 'package:cartee/presentation/widgets/login_screen_widgets/login_screen_social_buttons.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreen extends StatelessWidget {
@@ -6,14 +12,28 @@ class LoginScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Scaffold(
+    bool isDark = CarteeHelperFunctions.isDarkMode(context);
+    return Scaffold(
       body: SingleChildScrollView(
         child: Padding(
-          padding: EdgeInsets.only(
-            left: CarteeSizes.defaultSpace,
-            right: CarteeSizes.defaultSpace,
-            top: CarteeSizes.appBarHeight,
-            bottom: CarteeSizes.defaultSpace,
+          padding: CarteeSpacingStyle.paddingWithAppBarHeight,
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: CarteeSizes.spaceBtwSections),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    LoginScreenHeader(isDark: isDark),
+                    const LoginScreenForm(),
+                    const SizedBox(height: CarteeSizes.lg),
+                    const LoginScreenFormDivider(),
+                    const SizedBox(height: CarteeSizes.spaceBtwSections),
+                    LoginScreenSocialButtons(isDark: isDark),
+                  ],
+                ),
+              ),
+            ],
           ),
         ),
       ),

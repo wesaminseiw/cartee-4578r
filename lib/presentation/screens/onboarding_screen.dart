@@ -1,9 +1,9 @@
 import 'package:cartee/app/utils/constants/images_paths.dart';
 import 'package:cartee/app/utils/constants/text_strings.dart';
-import 'package:cartee/presentation/widgets/onboarding/onboarding_dot_navigation.dart';
-import 'package:cartee/presentation/widgets/onboarding/onboarding_next_page_button.dart';
-import 'package:cartee/presentation/widgets/onboarding/onboarding_page.dart';
-import 'package:cartee/presentation/widgets/onboarding/onboarding_skip_button.dart';
+import 'package:cartee/presentation/widgets/onboardings_screen_widgets/onboarding_screen_dot_navigation.dart';
+import 'package:cartee/presentation/widgets/onboardings_screen_widgets/onboarding_screen_next_page_button.dart';
+import 'package:cartee/presentation/widgets/onboardings_screen_widgets/onboarding_screen_page.dart';
+import 'package:cartee/presentation/widgets/onboardings_screen_widgets/onboarding_screen_skip_button.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingScreen extends StatefulWidget {
