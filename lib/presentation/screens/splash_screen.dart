@@ -1,5 +1,5 @@
 import 'package:animated_splash_screen/animated_splash_screen.dart';
-import 'package:cartee/presentation/screens/home_screen.dart';
+import 'package:cartee/presentation/screens/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
 import '../styles/colors.dart';
@@ -29,7 +29,7 @@ class _SplashScreenState extends State<SplashScreen> {
       backgroundColor: Theme.of(context).brightness == Brightness.light ? CarteeColors.tertiaryColor : CarteeColors.secondaryColor,
       duration: 3000,
       splashTransition: SplashTransition.fadeTransition,
-      nextScreen: const HomeScreen(),
+      nextScreen: const OnBoardingScreen(),
     );
   }
 }

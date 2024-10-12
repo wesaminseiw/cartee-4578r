@@ -15,6 +15,11 @@ class CarteeImagesPaths {
   static const String logoMiniDarkNoBg = 'assets/logos/cartee-logos/logo-mini-dark-no-bg.png';
   static const String logoMiniLightNoBg = 'assets/logos/cartee-logos/logo-mini-light-no-bg.png';
 
+  // onboarding images
+  static const String onboardingImageProduct = 'assets/animations/product.json';
+  static const String onboardingImagePaymentMethod = 'assets/animations/payment.json';
+  static const String onboardingImageDelivery = 'assets/animations/delivery.json';
+
   //* brand logos -------------------------------------------------------------------------
   static const String facebook = 'assets/logos/brand-logos/facebook-icon.png';
   static const String google = 'assets/logos/brand-logos/google-icon.png';
