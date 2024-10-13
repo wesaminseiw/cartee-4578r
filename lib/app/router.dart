@@ -1,5 +1,5 @@
 import 'package:cartee/presentation/screens/home_screen.dart';
-import 'package:cartee/presentation/screens/login_screen.dart';
+import 'package:cartee/presentation/screens/auth_screens/login_screen.dart';
 import 'package:cartee/presentation/screens/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
