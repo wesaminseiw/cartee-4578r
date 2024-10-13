@@ -25,17 +25,17 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
             controller: _controller,
             children: const [
               OnBoardingPage(
-                image: CarteeImagesPaths.onboardingImageProduct,
+                image: CarteeImagesPaths.onboardingImageProductAnimation,
                 title: CarteeTexts.onBoardingTitle1,
                 subtitle: CarteeTexts.onBoardingSubTitle1,
               ),
               OnBoardingPage(
-                image: CarteeImagesPaths.onboardingImagePaymentMethod,
+                image: CarteeImagesPaths.onboardingImagePaymentMethodAnimation,
                 title: CarteeTexts.onBoardingTitle2,
                 subtitle: CarteeTexts.onBoardingSubTitle2,
               ),
               OnBoardingPage(
-                image: CarteeImagesPaths.onboardingImageDelivery,
+                image: CarteeImagesPaths.onboardingImageDeliveryAnimation,
                 title: CarteeTexts.onBoardingTitle3,
                 subtitle: CarteeTexts.onBoardingSubTitle3,
               ),

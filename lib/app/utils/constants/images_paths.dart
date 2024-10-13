@@ -16,9 +16,13 @@ class CarteeImagesPaths {
   static const String logoMiniLightNoBg = 'assets/logos/cartee-logos-no-bg/logo-mini-light-no-bg.png';
 
   // onboarding images
-  static const String onboardingImageProduct = 'assets/animations/product.json';
-  static const String onboardingImagePaymentMethod = 'assets/animations/payment.json';
-  static const String onboardingImageDelivery = 'assets/animations/delivery.json';
+  static const String onboardingImageProductAnimation = 'assets/animations/product.json';
+  static const String onboardingImagePaymentMethodAnimation = 'assets/animations/payment.json';
+  static const String onboardingImageDeliveryAnimation = 'assets/animations/delivery.json';
+
+  // verify & success images
+  static const String verifyAnimation = 'assets/animations/verify.json';
+  static const String congratsAnimation = 'assets/animations/congrats.json';
 
   //* brand logos -------------------------------------------------------------------------
   static const String facebook = 'assets/logos/brand-logos/facebook-icon.png';
