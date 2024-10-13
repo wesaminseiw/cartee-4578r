@@ -2,18 +2,17 @@ import 'package:cartee/app/utils/constants/images_paths.dart';
 import 'package:cartee/app/utils/constants/sizes.dart';
 import 'package:cartee/app/utils/constants/text_strings.dart';
 import 'package:cartee/app/utils/extensions.dart';
+import 'package:cartee/app/utils/helper/helper_functions.dart';
 import 'package:flutter/material.dart';
 
 class LoginScreenHeader extends StatelessWidget {
   const LoginScreenHeader({
     super.key,
-    required this.isDark,
   });
-
-  final bool isDark;
 
   @override
   Widget build(BuildContext context) {
+    bool isDark = CarteeHelperFunctions.isDarkMode(context);
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [

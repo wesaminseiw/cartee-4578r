@@ -45,6 +45,22 @@ class LoginScreenForm extends StatelessWidget {
             ),
           ],
         ),
+        const SizedBox(height: CarteeSizes.lg),
+        SizedBox(
+          width: double.infinity,
+          child: ElevatedButton(
+            onPressed: () {},
+            child: const Text(CarteeTexts.signIn),
+          ),
+        ),
+        const SizedBox(height: CarteeSizes.spaceBtwItems),
+        SizedBox(
+          width: double.infinity,
+          child: OutlinedButton(
+            onPressed: () => Navigator.pushNamed(context, '/signup'),
+            child: const Text(CarteeTexts.createAccount),
+          ),
+        ),
       ],
     );
   }

@@ -1,3 +1,4 @@
+import 'package:cartee/presentation/screens/auth_screens/signup_screen.dart';
 import 'package:cartee/presentation/screens/home_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/login_screen.dart';
 import 'package:cartee/presentation/screens/onboarding_screen.dart';
@@ -18,6 +19,11 @@ class AppRouter {
       case '/login':
         return MaterialPageRoute(
           builder: (context) => const LoginScreen(),
+        );
+
+      case '/signup':
+        return MaterialPageRoute(
+          builder: (context) => const SignUpScreen(),
         );
       // case '/login':
       //   return MaterialPageRoute(

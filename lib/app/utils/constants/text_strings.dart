@@ -29,9 +29,10 @@ class CarteeTexts {
   static const String orsignInwith = "or sign in with";
   static const String orSignUpwith = "or sign up with";
   static const String iAgreeTo = "I agree to";
-  static const String privocyPolicy = "Privacy Policy";
+  static const String and = "and";
+  static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms of use";
-  static const String verificotionCode = "verificationCode";
+  static const String verificationCode = "verificationCode";
   static const String resendEmail = "Resend Email";
   static const String resendEmailIn = "Resend email in";
 
