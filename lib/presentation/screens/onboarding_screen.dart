@@ -16,13 +16,13 @@ class OnBoardingScreen extends StatefulWidget {
 class _OnBoardingScreenState extends State<OnBoardingScreen> {
   @override
   Widget build(BuildContext context) {
-    final PageController _controller = PageController();
+    final PageController controller = PageController();
 
     return Scaffold(
       body: Stack(
         children: [
           PageView(
-            controller: _controller,
+            controller: controller,
             children: const [
               OnBoardingPage(
                 image: CarteeImagesPaths.onboardingImageProductAnimation,
@@ -41,9 +41,9 @@ class _OnBoardingScreenState extends State<OnBoardingScreen> {
               ),
             ],
           ),
-          OnBoardingSkipButton(controller: _controller),
-          OnBoardingDotNavigation(controller: _controller),
-          OnBoardingNextPageButton(controller: _controller),
+          OnBoardingSkipButton(controller: controller),
+          OnBoardingDotNavigation(controller: controller),
+          OnBoardingNextPageButton(controller: controller),
         ],
       ),
     );

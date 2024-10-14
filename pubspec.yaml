@@ -23,6 +23,7 @@ dependencies:
   bloc: ^8.1.4
   flutter_bloc: ^8.1.6
   lottie: ^3.1.2
+  dotlottie_loader: ^0.0.4
 
 dev_dependencies:
   flutter_test:
@@ -37,7 +38,12 @@ flutter:
     - assets/logos/cartee-logos-no-bg/
     - assets/logos/cartee-logos/
     - assets/logos/brand-logos/
-    - assets/animations/
+    - assets/images/
+    - assets/animations/delivery.json
+    - assets/animations/payment.json
+    - assets/animations/product.json
+    - assets/animations/success.json
+    - assets/animations/verify.json
 
   fonts:
     - family: WorkSans

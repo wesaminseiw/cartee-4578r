@@ -111,10 +111,9 @@ class SignUpScreenForm extends StatelessWidget {
         SizedBox(
           width: double.infinity,
           child: ElevatedButton(
-            onPressed: () => Navigator.pushNamedAndRemoveUntil(
+            onPressed: () => Navigator.pushNamed(
               context,
               '/verify',
-              (route) => false,
             ),
             child: const Text(CarteeTexts.createAccount),
           ),

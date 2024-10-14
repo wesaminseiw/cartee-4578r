@@ -6,6 +6,7 @@ import 'package:cartee/app/utils/helper/helper_functions.dart';
 import 'package:cartee/presentation/styles/spacing_styles.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class VerifyEmailScreen extends StatelessWidget {
   const VerifyEmailScreen({super.key});
@@ -26,9 +27,11 @@ class VerifyEmailScreen extends StatelessWidget {
         padding: CarteeSpacingStyle.paddingWithAppBarHeight,
         child: Column(
           children: [
-            Image.asset(
+            Lottie.asset(
               CarteeImagesPaths.verifyAnimation,
               width: CarteeHelperFunctions.screenWidth(context) * 0.6,
+              frameRate: FrameRate.max,
+              reverse: true,
             ),
             const SizedBox(height: CarteeSizes.spaceBtwSections),
             Text(
@@ -45,17 +48,22 @@ class VerifyEmailScreen extends StatelessWidget {
             const SizedBox(height: CarteeSizes.spaceBtwItems),
             Text(
               CarteeTexts.confirmEmailSubTitle,
-              style: context.headlineMedium,
+              style: context.bodyLarge,
               textAlign: TextAlign.center,
             ),
             const SizedBox(height: CarteeSizes.spaceBtwSections),
             SizedBox(
               width: double.infinity,
               child: ElevatedButton(
-                onPressed: () {},
+                onPressed: () => Navigator.pushNamedAndRemoveUntil(
+                  context,
+                  '/success',
+                  (route) => false,
+                ),
                 child: const Text(CarteeTexts.ccontinue),
               ),
             ),
+            const SizedBox(height: CarteeSizes.spaceBtwItems),
             SizedBox(
               width: double.infinity,
               child: TextButton(

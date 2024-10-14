@@ -22,7 +22,7 @@ class CarteeImagesPaths {
 
   // verify & success images
   static const String verifyAnimation = 'assets/animations/verify.json';
-  static const String congratsAnimation = 'assets/animations/congrats.json';
+  static const String successAnimation = 'assets/animations/success.json';
 
   //* brand logos -------------------------------------------------------------------------
   static const String facebook = 'assets/logos/brand-logos/facebook-icon.png';

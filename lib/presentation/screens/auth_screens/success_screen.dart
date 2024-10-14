@@ -5,6 +5,7 @@ import 'package:cartee/app/utils/extensions.dart';
 import 'package:cartee/app/utils/helper/helper_functions.dart';
 import 'package:cartee/presentation/styles/spacing_styles.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 
 class SuccessScreen extends StatelessWidget {
   const SuccessScreen({super.key});
@@ -17,9 +18,10 @@ class SuccessScreen extends StatelessWidget {
           padding: CarteeSpacingStyle.paddingWithAppBarHeight * 2,
           child: Column(
             children: [
-              Image.asset(
-                CarteeImagesPaths.congratsAnimation,
+              Lottie.asset(
+                CarteeImagesPaths.successAnimation,
                 width: CarteeHelperFunctions.screenWidth(context) * 0.6,
+                reverse: true,
               ),
               const SizedBox(height: CarteeSizes.spaceBtwSections),
               Text(
@@ -30,7 +32,7 @@ class SuccessScreen extends StatelessWidget {
               const SizedBox(height: CarteeSizes.spaceBtwItems),
               Text(
                 CarteeTexts.yourAccountCreatedSubTitle,
-                style: context.headlineMedium,
+                style: context.bodyLarge,
                 textAlign: TextAlign.center,
               ),
               const SizedBox(height: CarteeSizes.spaceBtwSections),
@@ -39,7 +41,7 @@ class SuccessScreen extends StatelessWidget {
                 child: ElevatedButton(
                   onPressed: () => Navigator.pushNamedAndRemoveUntil(
                     context,
-                    '/home',
+                    '/login',
                     (route) => false,
                   ),
                   child: const Text(CarteeTexts.ccontinue),
