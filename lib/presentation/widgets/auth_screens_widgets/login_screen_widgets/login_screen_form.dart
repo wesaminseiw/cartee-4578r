@@ -40,8 +40,8 @@ class LoginScreenForm extends StatelessWidget {
             ),
             const Spacer(),
             TextButton(
-              onPressed: () {},
-              child: const Text(CarteeTexts.forgetPassword),
+              onPressed: () => Navigator.pushNamed(context, '/forgot-password'),
+              child: const Text(CarteeTexts.forgotPassword),
             ),
           ],
         ),

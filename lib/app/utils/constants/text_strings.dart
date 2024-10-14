@@ -23,14 +23,16 @@ class CarteeTexts {
   static const String username = "Username";
   static const String phoneNo = "Phone Number";
   static const String rememberMe = "Remember Me";
-  static const String forgetPassword = "Forget Passmord?";
+  static const String forgotPassword = "forgot Password?";
   static const String signIn = "Sign In";
   static const String createAccount = "Create Account";
   static const String orsignInwith = "or sign in with";
   static const String orSignUpwith = "or sign up with";
   static const String iAgreeTo = "I agree to";
   static const String and = "and";
-  static const String ccontinue = "continue";
+  static const String ccontinue = "Continue";
+  static const String submit = "Submit";
+  static const String done = "Done";
   static const String privacyPolicy = "Privacy Policy";
   static const String termsOfUse = "Terms of use";
   static const String verificationCode = "verificationCode";
@@ -41,11 +43,11 @@ class CarteeTexts {
   static const String loginTitle = "Welcome back,";
   static const String loginSubTitle = "Discover Limitless Choices and Unmatched Convenience.";
   static const String signupTitle = "Let's create your account";
-  static const String forgetPasswordTitle = "Forget password";
-  static const String forgetPasswordSubTitle =
-      "Don't worry sometimes people can forget too, enter your emait and we will send you a password reset link.";
-  static const String chongeYourPosswordTitle = "Password Reset Email Sent";
-  static const String chongeYourPassmordSubTitle =
+  static const String forgotPasswordTitle = "forgot password";
+  static const String forgotPasswordSubTitle =
+      "Don't worry sometimes people can forgot too, enter your emait and we will send you a password reset link.";
+  static const String changeYourPasswordTitle = "Password Reset Email Sent";
+  static const String changeYourPasswordSubTitle =
       "Your Account Security is Our Priority! We've Sent You a Secure Link to Safely Change Your Passmord and Keep Your Account Protected.";
   static const String confirmEmail = "Verify your email address!";
   static const String confirmEmailSubTitle =

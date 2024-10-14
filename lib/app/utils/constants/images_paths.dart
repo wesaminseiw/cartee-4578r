@@ -24,6 +24,9 @@ class CarteeImagesPaths {
   static const String verifyAnimation = 'assets/animations/verify.json';
   static const String successAnimation = 'assets/animations/success.json';
 
+  // reset password images
+  static const String sentAnimation = 'assets/animations/sent.json';
+
   //* brand logos -------------------------------------------------------------------------
   static const String facebook = 'assets/logos/brand-logos/facebook-icon.png';
   static const String google = 'assets/logos/brand-logos/google-icon.png';

@@ -1,3 +1,5 @@
+import 'package:cartee/presentation/screens/auth_screens/forgot_password_screen.dart';
+import 'package:cartee/presentation/screens/auth_screens/reset_password_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/signup_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/success_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/verify_email_screen.dart';
@@ -34,6 +36,14 @@ class AppRouter {
       case '/success':
         return MaterialPageRoute(
           builder: (context) => const SuccessScreen(),
+        );
+      case '/forgot-password':
+        return MaterialPageRoute(
+          builder: (context) => const ForgotPasswordScreen(),
+        );
+      case '/reset-password':
+        return MaterialPageRoute(
+          builder: (context) => const ResetPasswordScreen(),
         );
       // case '/login':
       //   return MaterialPageRoute(
