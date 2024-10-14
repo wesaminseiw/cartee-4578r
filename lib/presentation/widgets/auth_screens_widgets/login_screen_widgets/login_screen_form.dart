@@ -49,7 +49,11 @@ class LoginScreenForm extends StatelessWidget {
         SizedBox(
           width: double.infinity,
           child: ElevatedButton(
-            onPressed: () {},
+            onPressed: () => Navigator.pushNamedAndRemoveUntil(
+              context,
+              '/navigation-menu',
+              (route) => false,
+            ),
             child: const Text(CarteeTexts.signIn),
           ),
         ),

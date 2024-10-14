@@ -1,4 +1,5 @@
 import 'package:cartee/presentation/themes/custom_themes/appbar_theme.dart';
+import 'package:cartee/presentation/themes/custom_themes/bottom_navigation_bar_theme.dart';
 
 import '../styles/colors.dart';
 import 'custom_themes/bottom_sheet_theme.dart';
@@ -27,6 +28,7 @@ class CarteeAppTheme {
     outlinedButtonTheme: CarteeOutlinedButtonTheme.lightOutlinedButtonTheme,
     inputDecorationTheme: CarteeTextFieldTheme.lightInputDecorationTheme,
     appBarTheme: CarteeAppBarTheme.lightAppBarTheme,
+    navigationBarTheme: CarteeNavBarTheme.lightNavBarTheme,
   );
   static ThemeData darkTheme = ThemeData(
     useMaterial3: true,
@@ -42,5 +44,6 @@ class CarteeAppTheme {
     outlinedButtonTheme: CarteeOutlinedButtonTheme.darkOutlinedButtonTheme,
     inputDecorationTheme: CarteeTextFieldTheme.darkInputDecorationTheme,
     appBarTheme: CarteeAppBarTheme.darkAppBarTheme,
+    navigationBarTheme: CarteeNavBarTheme.darkNavBarTheme,
   );
 }

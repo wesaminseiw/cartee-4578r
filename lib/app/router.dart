@@ -1,10 +1,14 @@
+import 'package:cartee/presentation/widgets/navigation_menu.dart';
 import 'package:cartee/presentation/screens/auth_screens/forgot_password_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/reset_password_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/signup_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/success_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/verify_email_screen.dart';
-import 'package:cartee/presentation/screens/home_screen.dart';
+import 'package:cartee/presentation/screens/home_screens/home_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/login_screen.dart';
+import 'package:cartee/presentation/screens/home_screens/profile_screen.dart';
+import 'package:cartee/presentation/screens/home_screens/store_screen.dart';
+import 'package:cartee/presentation/screens/home_screens/wishlist_screen.dart';
 import 'package:cartee/presentation/screens/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -44,6 +48,22 @@ class AppRouter {
       case '/reset-password':
         return MaterialPageRoute(
           builder: (context) => const ResetPasswordScreen(),
+        );
+      case '/navigation-menu':
+        return MaterialPageRoute(
+          builder: (context) => const NavigationMenu(),
+        );
+      case '/store':
+        return MaterialPageRoute(
+          builder: (context) => const StoreScreen(),
+        );
+      case '/wishlist':
+        return MaterialPageRoute(
+          builder: (context) => const WishlistScreen(),
+        );
+      case '/profile':
+        return MaterialPageRoute(
+          builder: (context) => const ProfileScreen(),
         );
       // case '/login':
       //   return MaterialPageRoute(
