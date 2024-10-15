@@ -24,7 +24,7 @@ class SocialButtons extends StatelessWidget {
               child: IconButton(
                 onPressed: () {},
                 icon: Image.asset(
-                  CarteeImagesPaths.google,
+                  CarteeImages.google,
                   width: CarteeSizes.iconMd,
                   height: CarteeSizes.iconMd,
                 ),
@@ -39,7 +39,7 @@ class SocialButtons extends StatelessWidget {
               child: IconButton(
                 onPressed: () {},
                 icon: Image.asset(
-                  CarteeImagesPaths.facebook,
+                  CarteeImages.facebook,
                   width: CarteeSizes.iconMd,
                   height: CarteeSizes.iconMd,
                 ),

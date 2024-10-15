@@ -17,7 +17,7 @@ class LoginScreenHeader extends StatelessWidget {
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
         Image.asset(
-          isDark ? CarteeImagesPaths.logoMiniLightNoBg : CarteeImagesPaths.logoMiniDarkNoBg,
+          isDark ? CarteeImages.logoMiniLightNoBg : CarteeImages.logoMiniDarkNoBg,
           width: 150,
           height: 150,
         ),

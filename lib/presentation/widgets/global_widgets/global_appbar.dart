@@ -3,8 +3,8 @@ import 'package:cartee/app/utils/device_utility.dart';
 import 'package:flutter/material.dart';
 import 'package:iconsax/iconsax.dart';
 
-class CarteeAppBar extends StatelessWidget implements PreferredSizeWidget {
-  const CarteeAppBar({
+class GlobalAppBar extends StatelessWidget implements PreferredSizeWidget {
+  const GlobalAppBar({
     super.key,
     this.title,
     this.actions,

@@ -1,4 +1,4 @@
-class CarteeImagesPaths {
+class CarteeImages {
   //* cartee logos -------------------------------------------------------------------------
 
   // cartee-logos
@@ -26,6 +26,17 @@ class CarteeImagesPaths {
 
   // reset password images
   static const String sentAnimation = 'assets/animations/sent.json';
+
+  // categories icons
+  static const String animalsCategoryIcon = 'assets/icons/categories_icons/animated_icons/animal.gif';
+  static const String clothesCategoryIcon = 'assets/icons/categories_icons/animated_icons/clothes.gif';
+  static const String cosmeticsCategoryIcon = 'assets/icons/categories_icons/animated_icons/cosmetics.gif';
+  static const String electronicsCategoryIcon = 'assets/icons/categories_icons/animated_icons/electronics.gif';
+  static const String furnituresCategoryIcon = 'assets/icons/categories_icons/animated_icons/furniture.gif';
+  static const String jewelryCategoryIcon = 'assets/icons/categories_icons/animated_icons/jewelry.gif';
+  static const String shoesCategoryIcon = 'assets/icons/categories_icons/animated_icons/shoes.gif';
+  static const String sportsCategoryIcon = 'assets/icons/categories_icons/animated_icons/sports.gif';
+  static const String toysCategoryIcon = 'assets/icons/categories_icons/animated_icons/toys.gif';
 
   //* brand logos -------------------------------------------------------------------------
   static const String facebook = 'assets/logos/brand-logos/facebook-icon.png';

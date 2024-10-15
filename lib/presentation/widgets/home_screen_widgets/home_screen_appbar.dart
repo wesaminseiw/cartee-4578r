@@ -1,7 +1,7 @@
 import 'package:cartee/app/utils/constants/text_strings.dart';
 import 'package:cartee/app/utils/device_utility.dart';
 import 'package:cartee/presentation/styles/colors.dart';
-import 'package:cartee/presentation/widgets/global_widgets/cartee_appbar.dart';
+import 'package:cartee/presentation/widgets/global_widgets/global_appbar.dart';
 import 'package:cartee/presentation/widgets/home_screen_widgets/home_screen_cart_menu_icon.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +14,7 @@ class HomeScreenAppBar extends StatelessWidget {
   Widget build(BuildContext context) {
     return SizedBox(
       height: CarteeDeviceUtility.getAppBarHeight(),
-      child: CarteeAppBar(
+      child: GlobalAppBar(
         title: Column(
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [

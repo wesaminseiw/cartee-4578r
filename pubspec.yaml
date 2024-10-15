@@ -38,6 +38,16 @@ flutter:
     - assets/logos/cartee-logos/
     - assets/logos/brand-logos/
     - assets/images/
+    - assets/icons/categories_icons/
+    - assets/icons/categories_icons/animated_icons/animal.gif
+    - assets/icons/categories_icons/animated_icons/clothes.gif
+    - assets/icons/categories_icons/animated_icons/cosmetics.gif
+    - assets/icons/categories_icons/animated_icons/electronics.gif
+    - assets/icons/categories_icons/animated_icons/furniture.gif
+    - assets/icons/categories_icons/animated_icons/jewelry.gif
+    - assets/icons/categories_icons/animated_icons/shoes.gif
+    - assets/icons/categories_icons/animated_icons/sports.gif
+    - assets/icons/categories_icons/animated_icons/toys.gif
     - assets/animations/delivery.json
     - assets/animations/payment.json
     - assets/animations/product.json

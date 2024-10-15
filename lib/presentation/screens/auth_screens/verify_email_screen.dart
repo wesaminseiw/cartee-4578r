@@ -28,7 +28,7 @@ class VerifyEmailScreen extends StatelessWidget {
         child: Column(
           children: [
             Lottie.asset(
-              CarteeImagesPaths.verifyAnimation,
+              CarteeImages.verifyAnimation,
               width: CarteeHelperFunctions.screenWidth(context) * 0.6,
               frameRate: FrameRate.max,
               reverse: true,

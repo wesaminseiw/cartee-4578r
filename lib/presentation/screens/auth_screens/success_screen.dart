@@ -19,7 +19,7 @@ class SuccessScreen extends StatelessWidget {
           child: Column(
             children: [
               Lottie.asset(
-                CarteeImagesPaths.successAnimation,
+                CarteeImages.successAnimation,
                 width: CarteeHelperFunctions.screenWidth(context) * 0.6,
                 reverse: true,
               ),

@@ -9,7 +9,7 @@ import 'package:cartee/presentation/screens/auth_screens/login_screen.dart';
 import 'package:cartee/presentation/screens/home_screens/profile_screen.dart';
 import 'package:cartee/presentation/screens/home_screens/store_screen.dart';
 import 'package:cartee/presentation/screens/home_screens/wishlist_screen.dart';
-import 'package:cartee/presentation/screens/onboarding_screen.dart';
+import 'package:cartee/presentation/screens/intro_screens/onboarding_screen.dart';
 import 'package:flutter/material.dart';
 
 class AppRouter {

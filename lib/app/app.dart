@@ -1,7 +1,7 @@
 import 'package:cartee/app/router.dart';
 import 'package:cartee/logic/cubits/navigation_menu_cubit/navigation_menu_cubit.dart';
 import 'package:cartee/logic/cubits/onboarding_cubit/onboarding_cubit.dart';
-import 'package:cartee/presentation/screens/splash_screen.dart';
+import 'package:cartee/presentation/screens/intro_screens/splash_screen.dart';
 import 'package:cartee/presentation/themes/themes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
