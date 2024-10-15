@@ -5,14 +5,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:iconsax/iconsax.dart';
 
-class NavigationMenu extends StatefulWidget {
-  const NavigationMenu({super.key});
+class GlobalNavigationMenu extends StatefulWidget {
+  const GlobalNavigationMenu({super.key});
 
   @override
-  State<NavigationMenu> createState() => _NavigationMenuState();
+  State<GlobalNavigationMenu> createState() => _GlobalNavigationMenuState();
 }
 
-class _NavigationMenuState extends State<NavigationMenu> {
+class _GlobalNavigationMenuState extends State<GlobalNavigationMenu> {
   @override
   Widget build(BuildContext context) {
     bool isDark = CarteeHelperFunctions.isDarkMode(context);

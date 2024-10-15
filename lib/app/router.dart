@@ -1,4 +1,4 @@
-import 'package:cartee/presentation/widgets/navigation_menu.dart';
+import 'package:cartee/presentation/widgets/global_widgets/global_navigation_menu.dart';
 import 'package:cartee/presentation/screens/auth_screens/forgot_password_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/reset_password_screen.dart';
 import 'package:cartee/presentation/screens/auth_screens/signup_screen.dart';
@@ -51,7 +51,7 @@ class AppRouter {
         );
       case '/navigation-menu':
         return MaterialPageRoute(
-          builder: (context) => const NavigationMenu(),
+          builder: (context) => const GlobalNavigationMenu(),
         );
       case '/store':
         return MaterialPageRoute(
