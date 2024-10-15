@@ -1,3 +1,4 @@
+import 'package:cartee/presentation/widgets/home_screen_widgets/home_screen_appbar.dart';
 import 'package:cartee/presentation/widgets/home_screen_widgets/home_screen_header_container.dart';
 import 'package:flutter/material.dart';
 
@@ -6,12 +7,14 @@ class HomeScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
+    return const Scaffold(
       body: SingleChildScrollView(
         child: Column(
           children: [
             HomeScreenHeaderContainer(
-              child: Container(),
+              child: SafeArea(
+                child: HomeScreenAppBar(),
+              ),
             ),
           ],
         ),
